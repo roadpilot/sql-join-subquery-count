@@ -7,5 +7,7 @@ Hackers: The hacker_id is the id of the hacker, and name is the name of the hack
 Difficulty: The difficult_level is the level of difficulty of the challenge, and score is the score of the challenge for the difficulty level
 
 Challenges: The challenge_id is the id of the challenge, the hacker_id is the id of the hacker who created the challenge, and difficulty_level is the level of difficulty of the challenge.
+
+Submissions: The submission_id is the id of the submission, hacker_id is the id of the hacker who made the submission, challenge_id is the id of the challenge that the submission belongs to, and score is the score of the submission.
 */
 
