@@ -11,4 +11,6 @@ Challenges: The challenge_id is the id of the challenge, the hacker_id is the id
 Submissions: The submission_id is the id of the submission, hacker_id is the id of the hacker who made the submission, challenge_id is the id of the challenge that the submission belongs to, and score is the score of the submission.
 */
 
-select hacker_id,name from hackers
+select hackers.hacker_id,name,submissions.score from hackers 
+inner join submissions on hackers.hacker_id=submissions.hacker_id 
+having hackers.hacker_id=40226
