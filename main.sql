@@ -14,4 +14,5 @@ Submissions: The submission_id is the id of the submission, hacker_id is the id 
 select hackers.hacker_id,name,submissions.score from hackers 
 inner join submissions on hackers.hacker_id=submissions.hacker_id 
 inner join challenges on submissions.challenge_id=challenges.challenge_id 
+inner join difficulty on challenges.challenge_id=submissions.challenge_id 
 having hackers.hacker_id=40226
